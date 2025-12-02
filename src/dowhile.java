@@ -12,7 +12,7 @@ public class dowhile {
         System.out.println("Adivina un numero entre 1 al 70, piensa en un numero");
 
         do {
-            System.out.println("Introduce el numero que pensastes: ");
+            System.out.print("Introduce el numero que pensastes: ");
             numero = sc.nextInt();
 
             if (numero < numeroAleatorio) {
@@ -21,7 +21,7 @@ public class dowhile {
                 System.out.println("Intenta con un numero menor");
             }
         } while (numero != numeroAleatorio);
-        System.out.println("Adivinastes el numero nigga! (" + numeroAleatorio + ")" );
+        System.out.println("Adivinastes el numero! (" + numeroAleatorio + ")" );
         sc.close(); // esto existe solo para que java no se coma la ram de tu canaima
     }
 }
